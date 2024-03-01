@@ -1,0 +1,29 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/03/2024
+Var
+// Seção de Declarações das variáveis 
+   A, B : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+    Escreva ("Digite o primeiro número:")
+    Leia (A)
+   
+    Escreva ("Digite o segundo número:")
+    Leia (B)
+   
+       Se A>B então
+         escreva ("O valor de A é maior que o valor de B")
+       Senao
+          Se A<B entao
+                   escreva ("O valor de B é maior que o valor de A")
+       Senao
+         escreva ("O valor de B é igual ao valor de A")
+        fimse
+     fimse
+Fimalgoritmo
